@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menuInicio{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 5px;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-weight: bold;
+   
+}
+.NombreInicio{
+    font-size: 40px;
+   
+}
+
+.BarraDeInicio li{
+    display: inline-block;
+    padding: 0px 60px;
+    font-size: 30px;
+}
+
+header{
+    background-color: burlywood;
+}
+
+.LinkInicio{
+    text-decoration: none;
+    color: white;
+}
+
+.LinkInicio:hover{
+    color: aqua;
+}
+
+
+.ContactoBarra{
+    align-items: center;
+}
+
+.TitutoContacto{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+footer{
+    background-color: burlywood;
+}
+.BarraContacto li{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.BarraContacto{
+    align-items: center;
+    justify-content: center;
+    padding-left: 41%;
+}
+
+.ImagenContacto{
+    width: 40px;
+}
