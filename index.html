@@ -20,7 +20,7 @@
                     <a href="" class="LinkInicio">Inicio</a>
                 </li>
                 <li>
-                    <a href="" class="LinkInicio">Habilidades</a>
+                    <a href="#Habilidades" class="LinkInicio">Habilidades</a>
                 </li>
                 <li>
                     <a href="" class="LinkInicio">Formulario</a>
@@ -50,7 +50,7 @@
         </div>
         <div class="Habilidades">
             <div class="ContenedorHabilidades">
-                    <h2>HABILIDADES</h2>
+                    <h2 class="TituloHabilidades">HABILIDADES</h2>
                 <div class="ImgHabilidades">
                     <img src="Imagenes/C++.png" alt="" class="ImagenesHabilidades">
                     <img src="Imagenes/Csharp.png" alt="" class="ImagenesHabilidades">
@@ -66,35 +66,52 @@
             </div>
         </div>
         <div class="Proyectos">
-            <h2 >PROYECTOS</h2>
-            <div>
+            <h2 class="TitutoProyecto">PROYECTOS</h2>
+            <div class="CartelesProyecto">
                 <div class="ImgDesProyecto">
                     <a href="https://github.com/Matias-fabio/tp-winform-equipo-16b">
-
+                        <img src="Imagenes/imgArticulos.jpg" alt="" class="ImgProyecto">
+                        <h2 class="TitutoProyecto">Sistema Articulo</h2>
                     </a>
                 </div>
                 <div class="ImgDesProyecto">
-
+                    <a href="https://soda-stereo-1qyhp84r8-federic696.vercel.app/">
+                        <img src="Imagenes/SodaStereo.jpg" alt="" class="ImgProyecto">
+                        <h2 class="TitutoProyecto">Sistema Articulo</h2>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="Formulario">
             <div class="ContenedorFormulario">
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Gmail</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Descripcion</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <button>Enviar!!</button>
-                </div>
+                
+                <form action="https://formsubmit.co/c7d8550d9f495c8a0a90ab572c7febcc" method="POST" class="Formularioform">
+                        <h2 class="TituloFormulario">Formulario</h2>
+                    
+                        <label for="" class="TituloFormularios">Nombre:</label>
+                        <input type="text" name="name" class="CasillaFormulario">
+        
+                        <label for="" class="TituloFormularios">Gmail:</label>
+                        <input type="email" name="email" class="CasillaFormulario">
+                   
+                        <label for="" class="TituloFormularios">Asunto:</label>
+                        <input type="subject" name="subject" class="CasillaFormulario">
+                    
+                        <label for="" class="TituloFormularios">Comentarios:</label>
+                        <textarea name="commentarios" id="" cols="21" rows="5" class="CasillaFormulario"></textarea>
+
+                    <div>
+                        <button type="submit" class="FormularioBoton">Send</button>
+                    </div>
+                        
+                    
+                    
+                    
+                    
+                    <input type="hidden" name="_next" value="https://localhost:8000">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                
             </div>
             
             
@@ -107,17 +124,17 @@
             <h3 class="TitutoContacto">Contactos</h3>
             <ul class="BarraContacto">
                 <li >
-                    <a href="" class="LinkContacto">
+                    <a href="https://github.com/federic696" class="LinkContacto">
                         <img src="Imagenes/github.png" alt="" class="ImagenContacto">
                     </a>
                 </li>
                 <li>
-                    <a href="" class="LinkContacto">
+                    <a href="https://www.instagram.com/frederikc_696/" class="LinkContacto">
                         <img src="Imagenes/instagram.png" alt="" class="ImagenContacto">
                     </a>
                 </li>
                 <li>
-                    <a href="" class="LinkContacto">
+                    <a href="https://www.linkedin.com/in/escobarfederico/" class="LinkContacto">
                         <img src="Imagenes/linkedin.png" alt="" class="ImagenContacto">
                     </a>
                 </li>
