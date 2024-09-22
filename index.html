@@ -10,7 +10,11 @@
 <body>
     <header>
         <nav class="menuInicio">
-            <h2 class="NombreInicio">Escobar Federico</h2>
+            <div>
+                <img class="ImagenInicio" src="Imagenes/FotoPerfil.png" alt="">
+                <h2 class="NombreInicio">Escobar Federico</h2>
+            </div>
+            
             <ul class="BarraDeInicio">
                 <li>
                     <a href="" class="LinkInicio">Inicio</a>
@@ -19,35 +23,81 @@
                     <a href="" class="LinkInicio">Habilidades</a>
                 </li>
                 <li>
+                    <a href="" class="LinkInicio">Formulario</a>
+                </li>
+                <li>
                     <a href="" class="LinkInicio">Contacto</a>
                 </li>
             </ul>
         </nav>
        
     </header>
-    <section>
+    <section class="Intermedio">
         <div class="Presentacion">
-            <img src="Imagenes/FotoPerfil.png" alt="">
-            <h2>Federico Escobar</h2>
-            <h3>Programador & Tecnico</h3>
-            <p>Descripcion</p>
+            <div class="PerfilPresentacion">
+                <img  class="FotoPerfil"  src="Imagenes/FotoPerfil.png" alt="">
+                <div>
+                    <h2>Federico Escobar</h2>
+                    <h3>Programador & Tecnico</h3>
+                </div>
+            </div>
+            <div class="PresentacionDescripcion">
+                <h3>Sobre mi</h3>
+                <p>Universitario de la tecnicatura en programacion en la UTN, actualemnte especializandome en C#, .NET y en el area de desarrollo web, 
+                    tambien especializandome y arracando en el area de redes</p>
+            </div>
+            
         </div>
         <div class="Habilidades">
-            <h2>HABILIDADES</h2>
-            <img src="Imagenes/C++.png" alt="">
-            <img src="Imagenes/C#.png" alt="">
-            <img src="Imagenes/JS.png" alt="">
-            <img src="Imagenes/Python.png" alt="">
-            <img src="Imagenes/HTML.png" alt="">
-            <img src="Imagenes/CSS.png" alt="">
-            <img src="Imagenes/SQL.png" alt="">
-            <img src="Imagenes/NET.png" alt="">
+            <div class="ContenedorHabilidades">
+                    <h2>HABILIDADES</h2>
+                <div class="ImgHabilidades">
+                    <img src="Imagenes/C++.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/Csharp.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/JS.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/Python.png" alt="" class="ImagenesHabilidades">
+                </div>
+                <div class="ImgHabilidades">
+                    <img src="Imagenes/HTML.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/CSS.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/SQL.png" alt="" class="ImagenesHabilidades">
+                    <img src="Imagenes/NET.png" alt="" class="ImagenesHabilidades">
+                </div>
+            </div>
         </div>
-        <div class="Descripcion">
+        <div class="Proyectos">
+            <h2 >PROYECTOS</h2>
+            <div>
+                <div class="ImgDesProyecto">
+                    <a href="https://github.com/Matias-fabio/tp-winform-equipo-16b">
 
+                    </a>
+                </div>
+                <div class="ImgDesProyecto">
+
+                </div>
+            </div>
         </div>
         <div class="Formulario">
-
+            <div class="ContenedorFormulario">
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">Gmail</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">Descripcion</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <button>Enviar!!</button>
+                </div>
+            </div>
+            
+            
         </div>
 
     </section>
