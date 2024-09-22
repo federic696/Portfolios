@@ -17,16 +17,16 @@
             
             <ul class="BarraDeInicio">
                 <li>
-                    <a href="" class="LinkInicio">Inicio</a>
-                </li>
-                <li>
                     <a href="#Habilidades" class="LinkInicio">Habilidades</a>
                 </li>
                 <li>
-                    <a href="" class="LinkInicio">Formulario</a>
+                    <a href="#Proyectos" class="LinkInicio">Proyectos</a>
                 </li>
                 <li>
-                    <a href="" class="LinkInicio">Contacto</a>
+                    <a href="#Formulario" class="LinkInicio">Formulario</a>
+                </li>
+                <li>
+                    <a href="#ContactoBarra" class="LinkInicio">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -43,12 +43,12 @@
             </div>
             <div class="PresentacionDescripcion">
                 <h3>Sobre mi</h3>
-                <p>Universitario de la tecnicatura en programacion en la UTN, actualemnte especializandome en C#, .NET y en el area de desarrollo web, 
-                    tambien especializandome y arracando en el area de redes</p>
+                <p class="PresentacionP">Universitario de la tecnicatura en programacion en la UTN, actualemnte especializandome en C#, .NET y en el area de desarrollo web, 
+                    tambien especializandome y arracando en el area de redes.</p>
             </div>
             
         </div>
-        <div class="Habilidades">
+        <div class="Habilidades" id="Habilidades">
             <div class="ContenedorHabilidades">
                     <h2 class="TituloHabilidades">HABILIDADES</h2>
                 <div class="ImgHabilidades">
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="Proyectos">
+        <div class="Proyectos" id="Proyectos">
             <h2 class="TitutoProyecto">PROYECTOS</h2>
             <div class="CartelesProyecto">
                 <div class="ImgDesProyecto">
@@ -82,24 +82,30 @@
                 </div>
             </div>
         </div>
-        <div class="Formulario">
+        <div class="Formulario" id="Formulario">
             <div class="ContenedorFormulario">
                 
                 <form action="https://formsubmit.co/c7d8550d9f495c8a0a90ab572c7febcc" method="POST" class="Formularioform">
                         <h2 class="TituloFormulario">Formulario</h2>
-                    
+                    <div class="ClaseFormulario">
                         <label for="" class="TituloFormularios">Nombre:</label>
                         <input type="text" name="name" class="CasillaFormulario">
-        
+                    </div>
+                        
+                    <div class="ClaseFormulario">
                         <label for="" class="TituloFormularios">Gmail:</label>
                         <input type="email" name="email" class="CasillaFormulario">
-                   
+                    </div>
+                    <div class="ClaseFormulario">
                         <label for="" class="TituloFormularios">Asunto:</label>
                         <input type="subject" name="subject" class="CasillaFormulario">
-                    
+                    </div>
+                       
+                    <div class="ClaseFormulario">
                         <label for="" class="TituloFormularios">Comentarios:</label>
                         <textarea name="commentarios" id="" cols="21" rows="5" class="CasillaFormulario"></textarea>
-
+                    </div>
+                        
                     <div>
                         <button type="submit" class="FormularioBoton">Send</button>
                     </div>
@@ -120,7 +126,7 @@
     </section>
     <footer>
         
-        <nav class="ContactoBarra">
+        <nav class="ContactoBarra" id="ContactoBarra">
             <h3 class="TitutoContacto">Contactos</h3>
             <ul class="BarraContacto">
                 <li >

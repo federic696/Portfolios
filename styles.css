@@ -119,7 +119,11 @@ header{
     align-items: center;
     font-size: 40px;
 }
-
+.PresentacionP{
+    font-size: 30px;
+    padding-left: 26%;
+    width: 900px;
+}
 /*habilidades*/
 .Habilidades{
     padding-top: 15px;
@@ -169,7 +173,7 @@ header{
 .CartelesProyecto{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    
     padding-bottom: 40px;
 }
 
@@ -186,23 +190,23 @@ header{
 /*habilidades*/
 .TituloFormulario{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 6%;
     font-size: 30px;
 }
-
+.ClaseFormulario{
+    padding-bottom: 20px;
+}
 .Formularioform{
     display: block;
     padding-bottom: 20px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
+    height: 450px;
     width: 200px;
     padding-bottom: 20px;
 }
 
-.Formularioform label{
-    padding-bottom: 40px;
-}
+
 
 .Formulario{
     background-color: #93B5C6;
@@ -211,6 +215,8 @@ header{
 
 .CasillaFormulario{
     outline: none;
+    padding-top: 5px;
+    border-radius: 10px;
 }
 
 .TituloFormularios{
@@ -224,6 +230,9 @@ header{
     height: 40px;
 }
 
+.FormularioBoton{
+    border-radius: 20px;
+}
 
 footer{
     background-color: burlywood;
